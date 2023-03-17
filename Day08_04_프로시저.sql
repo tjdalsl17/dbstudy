@@ -14,7 +14,7 @@
         END;
     4. 작성된 프로시저는 EXECUTE 프로시저(); 형식으로 실행한다.
 */
-
+SET SERVEROUTPUT ON;
 -- 프로시저1 정의(만들기)
 CREATE OR REPLACE PROCEDURE PROC1
 IS
